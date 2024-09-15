@@ -6,13 +6,14 @@ function changeColor() {
     body.style.backgroundColor = 'black';
     button.style.backgroundColor = 'white';
     button.style.color = 'black';
-    button.textContent = 'day  theme'
+    button.textContent = 'Day  Theme'
+  //  button.style.fontSize = '30px'
   } else {
     body.style.backgroundColor = 'white';
     button.style.backgroundColor = 'black';
     button.style.color = 'white';
-    button.textContent = 'night theme';
-    
+    button.textContent = 'Night Theme';
+    // button.style.fontSize = '30px'
 
   }
 }
